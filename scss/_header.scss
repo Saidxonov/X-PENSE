@@ -159,11 +159,6 @@ nav {
   margin-top: 10.6rem;
 }
 
-.rigth-side img {
-  max-width: 53.8.2rem;
-  max-height: 47.8rem;
-}
-
 .burger-menu {
   display: none;
   flex-direction: column;
@@ -195,6 +190,26 @@ nav {
 
 .brands {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 108px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.brand {
+  opacity: 20%;
+  scale: Crop;
+  transition: 0.3s;
+  max-width: 15.9rem;
+  width: 100%;
+  max-height: 10.2rem;
+  height: 100%;
+}
+
+.brand:hover {
+  opacity: inherit;
 }
 
 .section-support {
@@ -233,6 +248,7 @@ nav {
 
 .section-2 {
   margin-top: 14.2rem;
+  background-color: #fffaf8;
 }
 
 .support p {
@@ -253,6 +269,20 @@ nav {
   font-weight: 400;
   line-height: 2.4rem;
   color: $orange-color;
+}
+
+.right-side img {
+  max-width: 54rem;
+  width: 100%;
+  max-height: 42.8rem;
+  height: 100%;
+}
+
+.right-content img {
+  max-width: 53.8.2rem;
+  width: 100%;
+  max-height: 47.8rem;
+  height: 100%;
 }
 
 @media (max-width: 1100px) {
@@ -317,6 +347,33 @@ nav {
   }
   .right-content img {
     max-width: 43.9rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tittle h1 {
+    max-width: 50rem;
+    max-height: 24.8rem;
+    color: $dark-color;
+    //styleName: Title;
+    font-family: "Hind Siliguri";
+    font-size: 7.6rem;
+    font-weight: 700;
+    line-height: 7.6rem;
+  }
+  .system {
+    flex-direction: column;
+  }
+  .tittle p {
+    max-width: 54rem;
+    max-height: 3.9rem;
+    color: $gray-color;
+    //styleName: Sub-title;
+    font-family: "Hind Siliguri";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 28.8.1rem;
+    margin-top: 4rem;
   }
 }
 
@@ -422,6 +479,39 @@ nav {
     padding-top: 8.7rem;
     padding-left: 4rem;
   }
+  .brands {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 108px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .brand {
+    opacity: 20%;
+    scale: Crop;
+    transition: 0.3s;
+    max-width: 14.9rem;
+    width: 100%;
+    max-height: 9.2rem;
+    height: 100%;
+  }
+  .brand:hover {
+    opacity: inherit;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .section-brand {
+    display: none;
+  }
+  .brands {
+    display: none;
+  }
+  .brand {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -475,7 +565,10 @@ nav {
   .section-1 {
     display: none;
   }
-  .right-content {
+}
+
+@media (max-width: 570px) {
+  .rigth-content img {
     display: none;
   }
 }
@@ -493,9 +586,6 @@ nav {
   }
   .system {
     flex-direction: column;
-  }
-  .rigth-side-image {
-    display: none;
   }
 }
 
