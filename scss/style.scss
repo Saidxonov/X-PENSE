@@ -2,3 +2,15 @@
 @import "./section-3";
 @import "./delivering-section";
 @import "./types";
+@import "./section-6";
+body {
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: #ff7235;
+    background: #292830;
+  }
+  ::selection {
+    color: #ff7235;
+    background: #292830;
+  }
+}

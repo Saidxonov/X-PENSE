@@ -1,6 +1,7 @@
-const burgerMenu = document.querySelector(".burger-menu");
-const menu = document.querySelector(".menu");
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
 
-burgerMenu.addEventListener("click", () => {
-  services.classList.toggle("show-menu");
-});
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}

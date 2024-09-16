@@ -1,0 +1,98 @@
+$white-color: #fff;
+$orange-color: #ff7235;
+$dark-color: #292830;
+$gray-color: #bdbdbd;
+.section-6-for-bg {
+  margin-top: 20.2rem;
+  background-color: #fffaf8;
+}
+
+.flexible-plan h2 {
+  max-width: 111rem;
+  max-height: 7.2rem;
+  font-family: "Hind Siliguri";
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  text-align: center;
+  color: $dark-color;
+  padding-top: 12.4rem;
+}
+
+.card-first {
+  max-width: 19.6rem;
+  max-height: 39.9rem;
+}
+
+.name-pay {
+  font-family: "Hind Siliguri";
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 5.1.7.4rem;
+  color: $dark-color;
+  max-width: 16.5rem;
+  max-height: 5.2rem;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+}
+
+.first-pay {
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32.34px;
+  text-align: left;
+  color: $gray-color;
+}
+
+.plus-user p {
+  font-family: "Hind Siliguri";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.9.4rem;
+  color: $gray-color;
+}
+
+.get-this {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  border: 1px solid $orange-color;
+}
+
+.first-pay {
+  font-family: Hind Siliguri;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.81px;
+  text-align: left;
+  color: $dark-color;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}
+
+.first p {
+  font-family: "Hind Siliguri";
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.9.1.1rem;
+  color: $dark-color;
+}
+
+.starter {
+  max-width: 35rem;
+  max-height: 50rem;
+  border-radius: 1.2rem;
+  background-color: #fff;
+}
+
+.first-card-image img {
+  padding-top: 4.1rem;
+}
