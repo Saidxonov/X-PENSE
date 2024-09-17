@@ -10,6 +10,36 @@ $gray-color: #bdbdbd;
   box-sizing: border-box;
 }
 
+/* Loader styling */
+
+.loader {
+  display: none;
+  /* Hidden by default */
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  /* Blue */
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  /* Above all other content */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -36,6 +66,42 @@ a {
 ul,
 ol {
   list-style: none;
+}
+
+/* Style the loader */
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a loading animation (optional) */
+
+#loader::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-top-color: #333;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .services ul {

@@ -11,6 +11,7 @@ $gray-color: #bdbdbd;
 }
 
 .free-demo {
+  justify-content: center;
   display: flex;
   align-items: center;
   border: none;
@@ -22,18 +23,22 @@ $gray-color: #bdbdbd;
   font-size: 2.2rem;
   font-weight: 400;
   line-height: 2.9rem;
-  text-align: center;
   max-width: 21.3rem;
   max-height: 6rem;
   padding: 1.8rem 2.4rem 1.8rem 2.4rem;
   transition: 0.3s;
-  margin: 0 auto;
+  z-index: 100;
 }
 
 .free-demo:hover {
   background-color: $gray-color;
   color: $dark-color;
   transition: 0.3s;
+}
+
+.party-tittle button {
+  margin: 0 auto;
+  margin-top: 6rem;
 }
 
 .party-tittle p {
@@ -57,4 +62,117 @@ $gray-color: #bdbdbd;
   text-align: center;
   color: $white-color;
   margin-top: 12rem;
+}
+
+.party-image {
+  display: flex;
+  margin-top: -12rem;
+  margin-left: -10rem;
+}
+
+.first-image {
+  max-width: 45.5rem;
+  width: 100%;
+  max-height: 32.2.2.3rem;
+  height: 100%;
+}
+
+@media (max-width: 876px) {
+  .party-image {
+    display: none;
+  }
+}
+
+@media (max-width: 851px) {
+  .party-tittle h2 {
+    max-width: 92rem;
+    max-height: 14.4rem;
+    font-family: "Hind Siliguri";
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 6.2rem;
+    text-align: center;
+    color: $white-color;
+    margin-top: 12rem;
+  }
+}
+
+@media (max-width: 742px) {
+  .party-tittle h2 {
+    max-width: 92rem;
+    max-height: 14.4rem;
+    font-family: "Hind Siliguri";
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 5.2rem;
+    text-align: center;
+    color: $white-color;
+    margin-top: 12rem;
+  }
+  .party-tittle p {
+    max-width: 92rem;
+    max-height: 3.6rem;
+    font-family: "Hind Siliguri";
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+@media (max-width: 509px) {
+  .party-tittle h2 {
+    max-width: 92rem;
+    max-height: 14.4rem;
+    font-family: "Hind Siliguri";
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+    text-align: center;
+    color: $white-color;
+    margin-top: 12rem;
+  }
+  .party-tittle p {
+    max-width: 92rem;
+    max-height: 3.6rem;
+    font-family: "Hind Siliguri";
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+@media (max-width: 425px) {
+  .party-tittle h2 {
+    max-width: 92rem;
+    max-height: 14.4rem;
+    font-family: "Hind Siliguri";
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    text-align: center;
+    color: $white-color;
+    margin-top: 12rem;
+  }
+  .party-tittle p {
+    max-width: 92rem;
+    max-height: 3.6rem;
+    font-family: "Hind Siliguri";
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+.second-image {
+  @extend.first-image;
+  max-width: 45.5rem;
+  width: 100%;
+  max-height: 32.2.2.3rem;
+  height: 100%;
 }
