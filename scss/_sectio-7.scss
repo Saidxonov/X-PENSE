@@ -1,0 +1,60 @@
+$white-color: #fff;
+$orange-color: #ff7235;
+$dark-color: #292830;
+$gray-color: #bdbdbd;
+.section-7 {
+  background-image: url("../images/section-1-bg-image.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: $orange-color;
+}
+
+.free-demo {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: $white-color;
+  border-radius: 8px;
+  color: $orange-color;
+  column-gap: 1rem;
+  font-family: "Hind Siliguri";
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 2.9rem;
+  text-align: center;
+  max-width: 21.3rem;
+  max-height: 6rem;
+  padding: 1.8rem 2.4rem 1.8rem 2.4rem;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+.free-demo:hover {
+  background-color: $gray-color;
+  color: $dark-color;
+  transition: 0.3s;
+}
+
+.party-tittle p {
+  max-width: 92rem;
+  max-height: 3.6rem;
+  font-family: "Hind Siliguri";
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  text-align: center;
+  color: $white-color;
+}
+
+.party-tittle h2 {
+  max-width: 92rem;
+  max-height: 14.4rem;
+  font-family: "Hind Siliguri";
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  text-align: center;
+  color: $white-color;
+  margin-top: 12rem;
+}
