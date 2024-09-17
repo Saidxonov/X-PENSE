@@ -3,8 +3,8 @@
 @import "./delivering-section";
 @import "./types";
 @import "./section-6";
-@import "./footer";
 @import "./sectio-7";
+@import "./footer";
 body {
   ::-moz-selection {
     /* Code for Firefox */
@@ -15,4 +15,6 @@ body {
     color: #ff7235;
     background: #292830;
   }
+  -webkit-user-select: none;
+  user-select: none;
 }

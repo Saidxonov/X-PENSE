@@ -195,6 +195,10 @@ ol {
   transition: 0.3s;
 }
 
+.rigth-content {
+  display: flex;
+}
+
 .system p {
   //styleName: Sub-title;
   font-family: "Hind Siliguri";
@@ -444,7 +448,12 @@ nav {
   }
   .rigth-side img {
     max-width: 43.8.2rem;
+    width: 100%;
     max-height: 37.8rem;
+    height: 100%;
+    .nav {
+      display: flex;
+    }
   }
   .section-statistic img {
     max-width: 111rem;
@@ -470,6 +479,9 @@ nav {
   }
   .system {
     flex-direction: column;
+  }
+  .nav {
+    display: flex;
   }
   .tittle p {
     max-width: 54rem;
